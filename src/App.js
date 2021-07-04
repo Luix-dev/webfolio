@@ -46,10 +46,10 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <ParticlesBg type="cobweb" bg={true} color="#ff0000"/>
-        <Router>
-          <Navbar data={this.state.resumeData.main}/>
-        </Router>
+        <ParticlesBg type="cobweb" bg={true} color="#08420a"/>
+      
+        <Navbar data={this.state.resumeData.main}/>
+
         <Header data={this.state.resumeData.main}/>
         <Footer data={this.state.resumeData.main}/>
       </div>

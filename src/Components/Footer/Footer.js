@@ -15,7 +15,7 @@ class Footer extends Component {
      <div className="row">
         <div className="twelve columns">
            <ul className="copyright">
-              <li>&copy; MIT free for use</li>
+              <li>&copy; Free to use</li>
               <li>Design by <a title="Styleshout" >Luiz Perren</a></li>
            </ul>
 

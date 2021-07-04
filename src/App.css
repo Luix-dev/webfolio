@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  color: #FF00
 }
 
 
@@ -28,12 +29,12 @@ nav {
   position: absolute;
   width: 100%;
   align-items: center;
-  color: rgba(255,255,255,0.85);
+  color: rgba(51, 51, 51, 0.85);
 }
 
 .Logo {
   display: flex;
-  color: rgba(255,255,255,0.85);
+  color: rgba(88, 88, 88, 0.85);
   font-size: 32px;
 }
 
@@ -43,3 +44,9 @@ nav {
   justify-content: space-around;
   width: 50%;
 }
+
+.Home {
+  
+}
+
+
