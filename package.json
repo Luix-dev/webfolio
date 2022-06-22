@@ -1,22 +1,27 @@
 {
-  "name": "webfolio",
+  "name": "masterfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.5.0",
-    "@testing-library/user-event": "^7.2.1",
-    "bootstrap": "^5.0.2",
-    "jquery": "^3.2.1",
-    "particles-bg": "^2.5.0",
-    "react": "^17.0.0",
-    "react-dom": "^17.0.0",
-    "react-ga": "^3.3.0",
-    "react-icons": "^4.2.0",
-    "react-router-dom": "^5.2.0",
-    "react-scripts": "^3.4.4",
-    "styled-components": "^5.2.1",
-    "update": "^0.7.4"
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.3.0",
+    "@testing-library/user-event": "^13.5.0",
+    "animate.css": "^4.1.1",
+    "aos": "^2.3.4",
+    "particles-bg": "^2.5.5",
+    "react": "^18.1.0",
+    "react-burger-menu": "^3.0.8",
+    "react-code-blocks": "^0.0.9-0",
+    "react-dom": "^18.1.0",
+    "react-player": "^2.10.1",
+    "react-router-dom": "^5.3.3",
+    "react-scripts": "5.0.1",
+    "react-simple-animate": "^3.5.0",
+    "react-tsparticles": "^2.0.6",
+    "react-unity-webgl": "^9.0.3",
+    "sass": "^1.52.3",
+    "tsparticles-preset-bubbles": "^2.0.6",
+    "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -25,7 +30,10 @@
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
-    "extends": "react-app"
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
   },
   "browserslist": {
     "production": [

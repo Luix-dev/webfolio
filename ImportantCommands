@@ -1,7 +1,0 @@
-#Erstellen des Projektes
-npm create-react-app NAME
-
-#deploy
-npm start
-npm run build
-firebase deploy

@@ -1,13 +1,81 @@
+:root {
+  /* Semester 1 colors*/
+  --home__header-color: #bdb2ff;
+  --home__buttons-maincolor: #FF013C;
+  --home__buttons-sidecolor: #00E6F6;
+
+  /* Semester 2 colors */
+  --sem2__burger-color: #048243;
+  --sem2__burger-text: #CAFFFB;
+  --sem2__burger-background: #343837;
+  --sem2__burger-hover: #47C072;
+
+  --all__boxshadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+
+  --font__small-size: 15px;
+  --font__small-weight: 200;
+
+  --font__title-size: 40px;
+  --font__title-weight: 500;
+
+  --font__text-size: 20px;
+  --font__text-weight: 200;
+
+  --font-h2__text-size: 35px;
+  --font-h2__text-weight: 400;
+
+  --font-h3__text-size: 25px;
+  --font-h3__text-weight: 400;
+
+  --middle-title__size: 25px;
+  --middle-title__weight: 300;
+
+  --pro__color: #caffbf;
+  --con__color: #ffadad;
+  background-color: white;
+
+}
+
+html,
+body {
+  background-color: white;
+}
+
+h1 {
+  font-size: var(--font__title-size);
+  font-weight: var(--font__title-weight);
+}
+
+h2 {
+  font-size: var(--font-h2__text-size);
+  font-weight: var(--font-h2__text-weight);
+}
+
+h3 {
+  font-size: var(--font-h3__text-size);
+  font-weight: var(--font-h3__text-weight);
+}
+
+
+html {
+  font-family: 'Ubuntu', sans-serif;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+main {
+  text-align: center;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.bold-text {
+  font-weight: bold;
 }

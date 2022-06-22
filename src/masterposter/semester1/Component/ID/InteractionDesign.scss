@@ -1,0 +1,156 @@
+.poster-home__title {
+    font-size: var(--font__title-size);
+    font-weight: var(--font__title-weight);
+    margin-top: 10rem;
+}
+
+.id-normal {
+    text-align: left;
+    width: 60%;
+}
+
+.id-wrapper {
+    background-color: rgba(255, 255, 255, 0.788);
+    margin-left: 10rem;
+    margin-right: 10rem;
+    margin-top: 2rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    width: 80%;
+    height: 80vh;
+    display: flex;
+    position: relative;
+    overflow: scroll;
+    flex-direction: column;
+    text-align: left;
+}
+
+.link-text {
+    font-size: 10px;
+    color: rgb(156, 156, 156);
+    width: 400px;
+    word-wrap: break-word;
+}
+
+.id-twocolumn{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 2rem;
+    text-align: left;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin-top: 2rem;
+    text-align: left;
+}
+
+.right {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 2rem;
+    margin-top: 2rem;
+}
+
+.right img {
+    height: 300px;
+    width: 700px;
+    margin-top: 9rem;
+}
+
+.right-2 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 2rem;
+    margin-top: 2rem;
+}
+
+.cognitive {
+    width: 30rem;
+    height: 20rem;
+}
+
+.red-box {
+    text-align: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-top: 2rem;
+    border-radius: 20px;
+    width: 300px;
+    background-color: red;
+}
+
+.green-box {
+    text-align: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-top: 2rem;
+    border-radius: 20px;
+    width: 300px;
+    background-color: green;
+}
+
+.blue-box {
+    text-align: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-top: 2rem;
+    border-radius: 20px;
+    width: 300px;
+    background-color: blue;
+}
+
+.yellow-box {
+    text-align: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-top: 2rem;
+    border-radius: 20px;
+    width: 300px;
+    background-color: yellow;
+}
+
+.purple-box {
+    text-align: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-top: 2rem;
+    border-radius: 20px;
+    width: 300px;
+    background-color: purple;
+}
+
+.font-image img {
+    height: 14rem;
+    width: 20rem;
+}
+.id-normal-2 {
+    margin-top: -25rem;
+    text-align: left;
+    width: 60%;
+}
+
+.id-normal-3 {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: row;
+    text-align: left;
+    width: 60%;
+}
+
+.colorbox {
+    margin-top: 2rem;
+    width: 200px;
+    height: 100px;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 100px;
+    vertical-align: middle;
+}

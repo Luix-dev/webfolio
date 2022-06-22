@@ -1,0 +1,242 @@
+
+body {
+    position: relative;  
+    font-size: var(--font__text-size);
+    font-weight: var(--font__text-weight);
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+}
+.poster-home__title {
+    font-size: var(--font__title-size);
+    font-weight: var(--font__title-weight);
+    margin-top: 10rem;
+}
+
+.ux-wrapper {
+    margin-left: 10rem;
+    margin-right: 10rem;
+    margin-top: 2rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    width: 80%;
+    height: 80vh;
+    display: flex;
+    position: relative;
+    overflow: scroll;
+    flex-direction: column;
+}
+
+.ux-wrapper::-webkit-scrollbar {
+    width: 0.5em;
+}
+
+.ux-wrapper::-webkit-scrollbar-track {
+    background: rgb(58, 6, 65);
+}
+
+.ux-wrapper::-webkit-scrollbar-thumb {
+    background: rgb(157, 49, 172);
+    border-radius: 100vw;
+}
+
+.ux-wrapper::-webkit-scrollbar-thumb:hover {
+    background: rgb(195, 61, 212);
+}
+
+@supports (scrollbar-color: red blue) {
+    * {
+        scrollbar-color: rgb(58, 6, 65) rgb(157, 49, 172);
+        scrollbar-width: thin;
+    }
+}
+
+.ux-intro {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: row;
+    box-shadow: var(--all__boxshadow);
+    padding-bottom: 3rem;
+    margin-bottom: 5rem;
+}
+
+.ux-introduction__left {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding-right: 5rem;
+    padding-left: 5rem;
+    padding-top: 2rem;
+    text-align: left;
+}
+
+.ux-introduction__right {
+    width: 40%;
+    padding-right: 5rem;
+    padding-left: 5rem;
+    padding-top: 2rem;
+    text-align: left;
+}
+
+.ux-normal-text {
+    font-size: var(--font__title-size);
+    font-weight: 400;
+}
+
+.slideshow {
+    margin: 0 auto;
+    overflow: hidden;
+    max-width: 500px;
+}
+
+.slideshowSlider {
+    white-space: nowrap;
+    transition: ease 4000ms;
+}
+
+.slide {
+    display: inline-block;
+    height: 400px;
+    width: 100%;
+    border-radius: 40px;
+}
+
+/* Buttons */
+.slideshowDots {
+    text-align: center;
+    cursor: pointer;
+  }
+
+.slideshowDot {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 15px 7px 0px;
+    background-color: #c4c4c4;
+}
+
+.contentwrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.ux-content {
+    text-align: left;
+    width: 60%;
+}
+
+img {
+    width: 50rem;
+    height: 30rem;
+}
+
+h2 {
+    text-align: left;
+    font-size: var(--font-h2__text-size);
+    font-weight: var(--font-h2__text-weight);
+}
+
+h3 {
+    font-size: var(--font-h3__text-size);
+    font-weight: var(--font-h3__text-weight);
+}
+
+li {
+    margin-left: 2rem;
+}
+
+.ux-2colums__wrapper {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    text-align: left;
+    width: 100%;
+}
+
+.ux-wrapper__left {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 2rem;
+    text-align: left;
+}
+
+.ux-wrapper-left {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 2rem;
+    text-align: left;
+}
+.ux-wrapper__right {
+    display: flex;
+    flex-direction: column;
+    padding-left: 2rem;
+    text-align: right;
+}
+.ux-wrapper__right img {
+    width: 40rem;
+    height: 45rem;
+}
+
+.ux-wrapper-right-wheel {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    padding-left: 2rem;
+    text-align: right;   
+}
+
+.ux-wrapper-right-wheel img {
+    width: 15rem;
+    height: 15rem;
+}
+
+.ux-wrapper-right-triangle {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    padding-left: 2rem;
+    text-align: right;   
+}
+
+.ux-wrapper-right-triangle img {
+    width: 15rem;
+    height: 17rem;
+}
+
+.link-text {
+    font-size: 10px;
+    color: rgb(156, 156, 156);
+    width: 400px;
+    word-wrap: break-word;
+}
+
+.sources {
+    font-size: var(--font__small-size);
+    font-weight: var(--font__small-weight);
+
+    width: 100%;
+    text-align: left;
+
+    margin-bottom: 5rem;
+}
+
+.ux-wrapper-left-source {
+    display: flex;
+    flex-direction: column;
+    width: 6rem;
+    margin-top: 2rem;
+    text-align: left;
+}
+
+.ux-wrapper-right-source {
+    margin-top: 1.5rem;
+    width: 100%;
+}
+
+.ux-wrapper {
+    background-color: rgba(255, 255, 255, 0.788);
+}
